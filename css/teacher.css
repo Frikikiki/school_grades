@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Trixie;
+    src: url(../fonts/trixie.otf);
+   }
+
+* {
+  margin: 0;
+  border: none;
+}
+*:focus {
+  outline: none !important; 
+}
+
+body{
+  text-align: center;
+    padding-bottom: 50px;
+}
+
+.all_content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  color: #171717 !important;
+  font-family: "Trixie";
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.table {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.table th, td{
+  font-family: "Trixie";
+}
+
+.table td{
+  text-align: right;
+}
+
+.table_lessons {
+  display: table !important;
+  width: 100%;
+  margin: 30px 0 40px;
+}
+
+.popup_window {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  z-index: 1;
+  overflow: auto; 
+}
+
+.choose_lesson_select {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.choose_lesson_select .label_text {
+  width: inherit;
+}
+
+.popup_window_close {
+  float: right;
+  margin: -18px -30px 0 0;
+  cursor: pointer; 
+}
+
+.popup_window_container {
+    text-align: center;
+    max-width: 540px;
+    font-family: 'Open Sans', '400';
+    color: #333333;
+    margin: 35px auto;
+    padding: 50px 60px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: default; 
+}
+
+
+.choose_lesson_main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.choose_lesson_grade {
+  order: 1;
+  margin-right: auto;
+}
+
+.choose_lesson_subject {
+  order: 2;
+  margin-left: auto;
+}
+
+
+span{
+    font-size: 20px;
+    color: '#171717';
+    font-family: "Trixie";
+    line-height: 50px;
+}
+
+
+.grades_select {
+  display: none;
+}
+
+
+.select {
+  -webkit-appearance: none;
+  background: transparent url(../images/arrow_down.png) no-repeat 97% center;
+  width: inherit;
+  margin: 0 auto 30px !important;
+}
+
+.field_text {
+  font-size: 18px;
+  color: #555555;
+  font-family: "Trixie";
+}
+
+.field_title {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  color: #333333;
+  font-family: "Trixie";
+  margin-bottom: 5px;
+}
+
+.input_text {
+  height: 50px;
+  margin: 0 auto 13px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 2px solid #c9c9c9;
+  padding: 0 15px;
+}
+
+.input_text_main {
+  width: inherit;
+}
+
+.input_text_popup {
+  width: 250px;
+}
+
+.active_field:hover {
+  border-color: #a6a6a6;
+}
+.active_field:focus {
+  border-color: #171717;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Trixie;
+    src: url(../fonts/trixie.otf);
+   }
+
+* {
+  margin: 0;
+  border: none;
+}
+*:focus {
+  outline: none !important; 
+}
+
+body{
+  text-align: center;
+    padding-bottom: 50px;
+}
+
+.all_content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.table {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.table th, td{
+  font-family: "Trixie";
+}
+
+.table td{
+  text-align: right;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  color: #171717 !important;
+  font-family: "Trixie";
+}
+a:hover {
+  text-decoration: none !important;
+}

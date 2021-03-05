@@ -1,0 +1,9 @@
+$('#logout_button').click(function(){
+  $.ajax({
+    url:"php/logout.php",
+    method:'post',
+    data:{},
+    dataType:"text",
+    success:function(){}
+  })
+})
